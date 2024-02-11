@@ -8,7 +8,7 @@ services:
     depends_on:
       - "db"
     ports:
-      - "8090:5000"
+      - "8091:5000"
     restart: always
     env_file:
     - ./.env
